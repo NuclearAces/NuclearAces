@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+    .pricing-table {
+        flex-direction: column;
+    }
+
+    .plan {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Georgia';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.pricing-table {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.plan {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+    padding: 20px 0;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 9px;
+}
+
+.plan h2 {
+    color: aquamarine;
+}
+
+.plan p {
+    color: aliceblue;
+
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    color: aliceblue;
+    background-color: blanchedalmond;
+
+}
